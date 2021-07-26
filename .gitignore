@@ -1,0 +1,4 @@
+# First, ignore all files
+*/**/*
+# Now, whitelist anything that's a directory
+!/Assets/**/Scripts/*.*

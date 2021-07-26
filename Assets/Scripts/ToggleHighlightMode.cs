@@ -25,7 +25,7 @@ public class ToggleHighlightMode : MonoBehaviour
 
     private void OnDestroy()
     {
-        InputComponent.OnToggleWeapons -= ToggleMode;
+        InputComponent.OnToggleCombat -= ToggleMode;
     }
 
     void ToggleMode(object source, EventArgs e)
