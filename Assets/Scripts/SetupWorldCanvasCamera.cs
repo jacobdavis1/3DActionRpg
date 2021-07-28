@@ -10,6 +10,7 @@ public class SetupWorldCanvasCamera : MonoBehaviour
     void Start()
     {
         GetComponent<Canvas>().worldCamera = Camera.main;
+        transform.position = transform.parent.position + CanvasOffset;
     }
 
     // Update is called once per frame

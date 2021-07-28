@@ -23,7 +23,7 @@ public class ShowInfoPanel : MonoBehaviour
     public void Show()
     {
         canvasObject.SetActive(true);
-        DisableAfterMillisecondsOnEnable d = canvasObject.GetComponent<DisableAfterMillisecondsOnEnable>();
+        FadeEffectComponent d = canvasObject.GetComponent<FadeEffectComponent>();
         d.SetTimer();
     }
 }

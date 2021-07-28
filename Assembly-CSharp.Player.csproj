@@ -101,7 +101,7 @@
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Demo\Scripts\SphereHighlightEventExample.cs" />
     <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Throwing Animations\Scripts\ThrowMultipleProps.cs" />
     <Compile Include="Assets\Scripts\LookAt.cs" />
-    <Compile Include="Assets\Scripts\DisableAfterMillisecondsOnEnable.cs" />
+    <Compile Include="Assets\Scripts\FadeEffectComponent.cs" />
     <Compile Include="Assets\Scripts\Node Identity Scripts\LeftWeaponComponent.cs" />
     <Compile Include="Assets\Scripts\ToggleHighlightMode.cs" />
     <Compile Include="Assets\3rd Party Resources\KriptoFX\VolumetricBloodFX\Scripts\BFX_DecaGizmo.cs" />
@@ -112,6 +112,7 @@
     <Compile Include="Assets\Scripts\NetworkingUpgrade\Humanoid Systems\InputComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Archer Animations\Scripts\BowLoadScript.cs" />
     <Compile Include="Assets\Scripts\NetworkingUpgrade\Humanoid Systems\JumpComponent.cs" />
+    <Compile Include="Assets\SetupRarityAndType.cs" />
     <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\AddCastEffect.cs" />
     <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
     <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowShockwave.cs" />
@@ -121,8 +122,10 @@
     <Compile Include="Assets\Scripts\NetworkingUpgrade\Humanoid Systems\LocomotionComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Throwing Animations\Scripts\ChangeSpear.cs" />
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Scripts\ShaderParams.cs" />
+    <Compile Include="Assets\JointAnchorMarker.cs" />
     <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\CastSpells.cs" />
     <Compile Include="Assets\3rd Party Resources\KriptoFX\VolumetricBloodFX\Scripts\BFX_ManualAnimationUpdate.cs" />
+    <Compile Include="Assets\CenterOfMassMarker.cs" />
     <Compile Include="Assets\Scripts\PlayerParticles.cs" />
     <Compile Include="Assets\Scripts\SetupItemName.cs" />
     <Compile Include="Assets\Scripts\ClickToMove.cs" />
@@ -136,6 +139,9 @@
     <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Villager Animations\Scripts\VillagerHandsIK.cs" />
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Scripts\HighlightManager.cs" />
     <Compile Include="Assets\Scripts\NetworkingUpgrade\IHittable.cs" />
+    <Compile Include="Assets\HandleOffsetMarker.cs" />
+    <Compile Include="Assets\PositionMarker.cs" />
+    <Compile Include="Assets\PositionMarkerManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\Terrain Tools\0.1.0-preview\Terrain Assets\ThirdPartyNotices.txt" />
