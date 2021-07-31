@@ -17,7 +17,7 @@ public class SpawnRandomItem : MonoBehaviour
         if (NetworkManager.Singleton.IsServer)
         {
             gameObject.SetActive(false);
-            InventoryManager.Singleton.SpawnRandomEquipmentServerRpc(transform.position);
+            //InventoryManager.Singleton.SpawnRandomEquipmentServerRpc(transform.position);
         }
     }
 }
