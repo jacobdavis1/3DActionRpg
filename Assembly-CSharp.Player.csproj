@@ -87,27 +87,27 @@
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Player\DamageAISystem.cs" />
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Demo\Scripts\SphereSelectionEventsExample.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemNode.cs" />
+    <Compile Include="Assets\AttackComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Low Poly Prehistoric Animals\- Scripts\Demo scene\AnimalViewer.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Common_KillSwitch.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\EmeraldAIProjectile.cs" />
     <Compile Include="Assets\Scripts\Networking\NetworkManagerGUI.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowFireball.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowFireball.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\VisibilityCheck.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Throwing Animations\Scripts\IdleThrowTrick.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Throwing Animations\Scripts\IdleThrowTrick.cs" />
     <Compile Include="Assets\Scripts\Node Identity Scripts\RightHipWeaponComponent.cs" />
     <Compile Include="Assets\Scripts\Inventory\Equipment Info UI\SetupWorldCanvasCamera.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Soldier Animations\Scripts\JumpScript.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Soldier Animations\Scripts\JumpScript.cs" />
     <Compile Include="Assets\Scripts\NetworkedPhysicsObject.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\UI\EmeraldAIHealthBar.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Low Poly Prehistoric Animals\- Scripts\Demo scene\PanelControl.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\EmeraldAITimedDespawn.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\EmeraldAIBehaviors.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Wander Script\MovementState.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorLeftHandIK.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorLeftHandIK.cs" />
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Scripts\HighlightEffectOccluderManager.cs" />
-    <Compile Include="Assets\Scripts\Inventory\Equipment Info UI\ShowInfoPanel.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Throwing Animations\Scripts\ThrowProp.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowNova.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Throwing Animations\Scripts\ThrowProp.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowNova.cs" />
     <Compile Include="Assets\Scripts\CanvasLookAtCamera.cs" />
     <Compile Include="Assets\FactionComponent.cs" />
     <Compile Include="Assets\Scripts\Inventory\EquipmentComponent.cs" />
@@ -126,8 +126,8 @@
     <Compile Include="Assets\3rd Party Resources\Polytope Studio\Lowpoly Medieval Characters\Sources\Scripts\PT_Create_Prefab.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Character Controller\EmeraldAIHideMouse.cs" />
     <Compile Include="Assets\Scripts\Inventory\HeadLookViaCamera.cs" />
-    <Compile Include="Assets\Scripts\Networking\Humanoid Systems\StatesComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\Polytope Studio\Lowpoly Medieval Demos\Tools&amp;Props\rotationSB.cs" />
+    <Compile Include="Assets\Scripts\Networking\Humanoid Systems\StatesComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Player\EmeraldAIPlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Inventory\Equipment Info UI\SetupDescriptionText.cs" />
     <Compile Include="Assets\WeaponAttackCollidersComponent.cs" />
@@ -144,9 +144,9 @@
     <Compile Include="Assets\Scripts\GroundedLight.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Example Systems\AISchedule.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Low Poly Prehistoric Animals\- Scripts\Wander Script\PrehistoricAnimals_AudioManager.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorShieldRotator.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Melee Warrior Animations\Scripts\MeleeWarriorShieldRotator.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Low Poly Prehistoric Animals\- Scripts\Wander Script\PrehistoricAnimals_WanderManager.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowHealing.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowHealing.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Wander Script\Common_AudioManager.cs" />
     <Compile Include="Assets\3rd Party Resources\KriptoFX\VolumetricBloodFX\DemoScene\BFX_DemoTest.cs" />
     <Compile Include="Assets\3rd Party Resources\KriptoFX\VolumetricBloodFX\Scripts\BFX_DecalSettings.cs" />
@@ -155,12 +155,12 @@
     <Compile Include="Assets\Scripts\BloodManager.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\EmeraldAIDetection.cs" />
     <Compile Include="Assets\Scripts\Node Identity Scripts\RightWeaponComponent.cs" />
+    <Compile Include="Assets\LevelDisplayMarker.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\AnimationProfile.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Example Systems\HUDHealthBar.cs" />
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Demo\Scripts\SphereHighlightEventExample.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Throwing Animations\Scripts\ThrowMultipleProps.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Throwing Animations\Scripts\ThrowMultipleProps.cs" />
     <Compile Include="Assets\Scripts\LookAt.cs" />
-    <Compile Include="Assets\Scripts\FadeEffectComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Common_AnimSpeed.cs" />
     <Compile Include="Assets\Scripts\Node Identity Scripts\LeftWeaponComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\CombatTextSystem.cs" />
@@ -172,35 +172,37 @@
     <Compile Include="Assets\3rd Party Resources\KriptoFX\VolumetricBloodFX\Scripts\BFX_ShaderProperies.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Wander Script\AIStats.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\LocationBasedDamageArea.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Soldier Animations\RetargetingExamples\Scripts\SoldierIK.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Soldier Animations\RetargetingExamples\Scripts\SoldierIK.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Player\PlayerWeapon.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Character Controller\EmeraldAISmoothFollow.cs" />
     <Compile Include="Assets\Scripts\Inventory\Position Markers\PositionMarkerManager.cs" />
     <Compile Include="Assets\Scripts\Networking\Humanoid Systems\InputComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\PureNature\Scripts\WaterReflection.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Archer Animations\Scripts\BowLoadScript.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Archer Animations\Scripts\BowLoadScript.cs" />
     <Compile Include="Assets\Scripts\Networking\Humanoid Systems\JumpComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Wander Script\Common_WanderManager.cs" />
     <Compile Include="Assets\Scripts\Inventory\Equipment Info UI\SetupRarityAndType.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\AddCastEffect.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Caster Mage Animations\Scripts\AddCastEffect.cs" />
     <Compile Include="Assets\Scripts\CharacterLocomotion.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowShockwave.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Caster Mage Animations\Scripts\ThrowShockwave.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Example Systems\SpawnCompanion.cs" />
     <Compile Include="Assets\Scripts\Node Identity Scripts\RightShoulderWeaponComponent.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Throwing Animations\Scripts\ThrowBigAxe.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Throwing Animations\Scripts\ThrowBigAxe.cs" />
     <Compile Include="Assets\Scripts\DisableIfNotOwner.cs" />
     <Compile Include="Assets\Scripts\Networking\Humanoid Systems\LocomotionComponent.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Throwing Animations\Scripts\ChangeSpear.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Throwing Animations\Scripts\ChangeSpear.cs" />
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Scripts\ShaderParams.cs" />
     <Compile Include="Assets\Scripts\Inventory\Position Markers\JointAnchorMarker.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\EmeraldAIProjectileTimeout.cs" />
     <Compile Include="Assets\Scripts\Inventory\Position Markers\PositionMarker.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Caster Mage Animations\Scripts\CastSpells.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Caster Mage Animations\Scripts\CastSpells.cs" />
     <Compile Include="Assets\3rd Party Resources\KriptoFX\VolumetricBloodFX\Scripts\BFX_ManualAnimationUpdate.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Common_RandomInt.cs" />
     <Compile Include="Assets\Scripts\Inventory\Position Markers\CenterOfMassMarker.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kubold\SwordShieldAnimsetPro\Scripts\CursorLockHide.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\SwordShieldAnimsetPro\Scripts\CursorLockHide.cs" />
+    <Compile Include="Assets\FallToGroundComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Example Systems\NeedsSystemDisplay.cs" />
+    <Compile Include="Assets\Scripts\PathManager.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\EmeraldAIDamageOverTime.cs" />
     <Compile Include="Assets\Scripts\PlayerParticles.cs" />
     <Compile Include="Assets\Scripts\Inventory\Equipment Info UI\SetupItemName.cs" />
@@ -216,24 +218,24 @@
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\System\EmeraldAISystem.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Wander Script\AIState.cs" />
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Scripts\HighlightSeeThroughOccluder.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Soldier Animations\Scripts\JumpScriptSMB.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Soldier Animations\Scripts\JumpScriptSMB.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Character Controller\EmeraldAIMouseLook.cs" />
     <Compile Include="Assets\ExperienceBarMarker.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Example Systems\DamageAIByAngle.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Example Systems\TameAI.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\VisibilityCheckDelay.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Example Systems\DamageAIByCollision.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Soldier Animations\RetargetingExamples\Scripts\SoldierIKSMB.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Soldier Animations\RetargetingExamples\Scripts\SoldierIKSMB.cs" />
     <Compile Include="Assets\CharacterComponent.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Low Poly Prehistoric Animals\- Scripts\Wander Script\PrehistoricAnimals_WanderScript.cs" />
     <Compile Include="Assets\3rd Party Resources\polyperfect\Common\Common_PlaySound.cs" />
     <Compile Include="Assets\3rd Party Resources\KriptoFX\VolumetricBloodFX\Scripts\BFX_RenderDepth.cs" />
-    <Compile Include="Assets\3rd Party Resources\Kevin Iglesias\Villager Animations\Scripts\VillagerHandsIK.cs" />
+    <Compile Include="Assets\3rd Party Resources\Animation Packs\Kevin Iglesias\Villager Animations\Scripts\VillagerHandsIK.cs" />
     <Compile Include="Assets\3rd Party Resources\HighlightPlus\Scripts\HighlightManager.cs" />
     <Compile Include="Assets\Scripts\Networking\IHittable.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Character Controller\EmeraldAICharacterController.cs" />
     <Compile Include="Assets\3rd Party Resources\Emerald AI\Scripts\Components\EmeraldAINeedsSystem.cs" />
-    <Compile Include="Assets\AttackComponent.cs" />
+    <Compile Include="Assets\NPC_HUDManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\3rd Party Resources\Emerald AI\Credit\Credit.txt" />
@@ -241,13 +243,14 @@
     <None Include="Assets\3rd Party Resources\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\3rd Party Resources\Polygonal Aliens Pack\Polygonal Alien Magantis\Read me.txt" />
     <None Include="Assets\3rd Party Resources\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\3rd Party Resources\Kubold\SwordShieldAnimsetPro\readme.txt" />
+    <None Include="Assets\3rd Party Resources\Animation Packs\SwordShieldAnimsetPro\readme.txt" />
     <None Include="Assets\3rd Party Resources\Emerald AI\Demo Source\AI Models\MeshSmith\ToonMonsterII\Toon Demon\Mesh\readMe.txt" />
     <None Include="Assets\3rd Party Resources\HighlightPlus\Resources\HighlightPlus\HighlightOverlay.shader" />
     <None Include="Assets\3rd Party Resources\Polygonal Aliens Pack\Polygonal Alien Telekinis\www.meshtint.com.txt" />
     <None Include="Assets\3rd Party Resources\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\3rd Party Resources\HighlightPlus\Resources\HighlightPlus\HighlightOccluder.shader" />
     <None Include="Assets\3rd Party Resources\PureNature\Shaders\Billboards.shader" />
+    <None Include="Assets\3rd Party Resources\Animation Packs\ArcherAnimsetPro\Info.txt" />
     <None Include="Assets\3rd Party Resources\Polytope Studio\Lowpoly Medieval Characters\Sources\Modular_NPC\Shaders\PT_Medieval_Modular_NPC_Shader_Toon.shader" />
     <None Include="Assets\3rd Party Resources\HighlightPlus\Resources\HighlightPlus\CustomVertexTransform.cginc" />
     <None Include="Assets\3rd Party Resources\Polygonal Aliens Pack\Polygonal Alien Magantis\www.meshtint.com.txt" />
@@ -265,6 +268,7 @@
     <None Include="Assets\3rd Party Resources\HighlightPlus\Resources\HighlightPlus\HighlightBlurGlow.shader" />
     <None Include="Assets\3rd Party Resources\PureNature\Shaders\GrassMesh.shader" />
     <None Include="Assets\3rd Party Resources\ATART\Animset\Readme.txt" />
+    <None Include="Assets\3rd Party Resources\Animation Packs\ArcherAnimsetPro\Shaders\Standard.shader" />
     <None Include="Assets\3rd Party Resources\HighlightPlus\Resources\HighlightPlus\HighlightAddDepth.shader" />
     <None Include="Assets\3rd Party Resources\HighlightPlus\Resources\HighlightPlus\HighlightSeeThroughMask.shader" />
     <None Include="Assets\3rd Party Resources\Polygonal Aliens Pack\Polygonal Alien Longtail\www.meshtint.com.txt" />
@@ -309,14 +313,15 @@
     <None Include="Assets\3rd Party Resources\HighlightPlus\Resources\HighlightPlus\HighlightComposeOutline.shader" />
     <None Include="Assets\3rd Party Resources\Polygonal Aliens Pack\Polygonal Alien Garoo\www.meshtint.com.txt" />
     <None Include="Assets\3rd Party Resources\Polygonal Aliens Pack\Polygonal Alien Ulifo\www.meshtint.com.txt" />
-    <None Include="Assets\3rd Party Resources\Kubold\SwordShieldAnimsetPro\HowToInstall.txt" />
+    <None Include="Assets\3rd Party Resources\Animation Packs\SwordShieldAnimsetPro\HowToInstall.txt" />
     <None Include="Assets\3rd Party Resources\ATART\Shader\UnlitShadow.shader" />
     <None Include="Assets\3rd Party Resources\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\3rd Party Resources\Kubold\RunAnimsetBasic\readme.txt" />
+    <None Include="Assets\3rd Party Resources\Animation Packs\RunAnimsetBasic\readme.txt" />
     <None Include="Assets\3rd Party Resources\HighlightPlus\Resources\HighlightPlus\HighlightOutline.shader" />
     <None Include="Assets\3rd Party Resources\KriptoFX\VolumetricBloodFX\Readme.txt" />
     <None Include="Assets\3rd Party Resources\Emerald AI\Scripts\Shaders\Emerald AI UI.shader" />
-    <None Include="Assets\3rd Party Resources\Kubold\WalkAnimsetBasic\readme.txt" />
+    <None Include="Assets\3rd Party Resources\Animation Packs\MovementAnimsetPro\HowToInstall.txt" />
+    <None Include="Assets\3rd Party Resources\Animation Packs\WalkAnimsetBasic\readme.txt" />
     <None Include="Assets\3rd Party Resources\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\3rd Party Resources\Polygonal Fantasy Pack\Read Me.txt" />
     <None Include="Assets\3rd Party Resources\PureNature\Shaders\GrassTerrain.shader" />
@@ -542,6 +547,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="PackageToolsEditor">
+      <HintPath>Library\ScriptAssemblies\PackageToolsEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -572,6 +580,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="AstarPathfindingProjectEditor">
+      <HintPath>Library\ScriptAssemblies\AstarPathfindingProjectEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
     </Reference>
@@ -580,6 +591,15 @@
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>Library\PackageCache\com.unity.connect.share@4.2.2\Plugins\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.ClipperLib">
+      <HintPath>Assets\AstarPathfindingProject\Plugins\Clipper\Pathfinding.ClipperLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Poly2Tri">
+      <HintPath>Assets\AstarPathfindingProject\Plugins\Poly2Tri\Pathfinding.Poly2Tri.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -947,6 +967,10 @@
     <ProjectReference Include="Unity.Multiplayer.MLAPI.Prototyping.csproj">
       <Project>{E9E968D2-65D8-019F-F93F-019F4A38AD7A}</Project>
       <Name>Unity.Multiplayer.MLAPI.Prototyping</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{4E98F6E2-0363-C6D4-A32E-E2735067809D}</Project>
+      <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
       <Project>{330CA81E-4C07-DB8E-8C9B-C38421B08CD6}</Project>

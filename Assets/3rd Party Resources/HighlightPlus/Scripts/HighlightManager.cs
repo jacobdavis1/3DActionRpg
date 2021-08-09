@@ -89,10 +89,6 @@ namespace HighlightPlus {
             if (collision) {
                 Transform t = hitInfo.collider.transform;
 
-                ShowInfoPanel infoPanel = hitInfo.collider.gameObject.GetComponent<ShowInfoPanel>();
-                if (infoPanel)
-                    infoPanel.Show();
-
                 // Toggles selection
                 if (Input.GetMouseButtonDown(0)) {
                     if (selectOnClick) {
