@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MLAPI;
 
 public class PushableByPlayer : MonoBehaviour
 {
@@ -23,7 +24,10 @@ public class PushableByPlayer : MonoBehaviour
         if (collision.gameObject.layer != 3) // Creatures layer
             return;
 
-        Vector3 collisionDirection = (transform.position - collision.gameObject.transform.position).normalized;
-        gameObject.GetComponent<Rigidbody>().AddForce(collisionDirection * 5.0f, ForceMode.Impulse);
+        Vector3 collisionDirection = (transform.position - collision.gameObject.transform.position);
+        collisionDirection.y = 0;
+
+        Vector3 collisionDirectionModified = collisionDirection.normalized;
+        gameObject.GetComponent<Rigidbody>().AddForce(collisionDirectionModified * 5.0f, ForceMode.Impulse);
     }
 }

@@ -1,10 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MouseLookCamera : MonoBehaviour
 {
-    public GameObject target;
+	public GameObject target;
     public float rotateSpeed = 5;
 
     public float mMinPitch = -30.0f;
@@ -17,8 +18,6 @@ public class MouseLookCamera : MonoBehaviour
 
     public Vector3 mPositionOffset = new Vector3(0.0f, 2.0f, -2.5f);
     public Vector3 mAngleOffset = new Vector3(0.0f, 0.0f, 0.0f);
-    [Tooltip("The damping factor to smooth the changes in position and rotation of the camera.")]
-    public float mDamping = 1.0f;
 
     public bool LockCameraPosition = false;
 
@@ -39,8 +38,8 @@ public class MouseLookCamera : MonoBehaviour
     void Follow_IndependentRotation()
     {
         float mx, my;
-        mx = Input.GetAxis("Mouse X");
-        my = Input.GetAxis("Mouse Y");
+        mx = Input.GetAxisRaw("Mouse X");
+        my = Input.GetAxisRaw("Mouse Y");
 
         // We apply the initial rotation to the camera.
         Quaternion initialRotation = Quaternion.Euler(mAngleOffset);
@@ -67,9 +66,6 @@ public class MouseLookCamera : MonoBehaviour
             + right * mPositionOffset.x
             + up * mPositionOffset.y;
 
-        Vector3 position = Vector3.Lerp(transform.position,
-            desiredPosition,
-            Time.deltaTime * mDamping);
-        transform.position = position;
+        transform.position = desiredPosition;
     }
 }
